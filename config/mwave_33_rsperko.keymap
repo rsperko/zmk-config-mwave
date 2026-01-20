@@ -38,7 +38,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&sk LSHFT>, <&kp CLCK>;
+            bindings = <&sk LSHFT>, <&caps_word>;
         };
 
         ht_hyper: ht_hyper {
