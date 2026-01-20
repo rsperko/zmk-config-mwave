@@ -108,7 +108,7 @@
 &kp RS(NUMBER_2)  &kp RS(NUMBER_8)  &kp RS(NUMBER_3)  &kp RS(LEFT_BRACKET)  &kp RS(RIGHT_BRACKET)  &kp RS(BACKSLASH)  &trans      &trans        &trans   &trans                    &trans            &trans         &trans    &trans          &trans
 &kp RS(NUMBER_1)  &kp RS(SEMI)      &kp LS(MINUS)     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL          &trans      &trans        &trans   &trans                    &trans            &trans         &trans    &trans
 &kp RS(NUMBER_4)  &kp RS(NUMBER_7)  &kp MINUS         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RS(EQUAL)      &trans      &trans        &trans   &trans                    &trans            &trans         &trans    &trans
-&trans            &trans            &trans            &kp RA(BACKSPACE)     &kp BACKSPACE          &trans             &trans      &trans        &trans   &trans                    &trans
+&trans            &trans            &trans            &kp LA(BACKSPACE)     &kp BACKSPACE          &trans             &trans      &trans        &trans   &trans                    &trans
             >;
         };
 
