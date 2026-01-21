@@ -105,9 +105,9 @@
             bindings = <
 &kp ESC           &kp C_MUTE        &kp C_VOL_DN      &kp C_VOL_UP          &kp C_PREV             &kp C_PP           &kp C_NEXT  &bl BL_CYCLE  &kp F11  &kp LS(LC(LG(NUMBER_4)))  &kp LC(UP_ARROW)  &kp LG(SPACE)  &bth 0 0  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp K_POWER  &trans
 &trans            &trans            &trans            &trans                &trans                 &trans             &trans      &trans        &trans   &trans                    &trans            &trans         &trans    &trans
-&kp RS(NUMBER_2)  &kp RS(NUMBER_8)  &kp RS(NUMBER_3)  &kp RS(LEFT_BRACKET)  &kp RS(RIGHT_BRACKET)  &kp RS(BACKSLASH)  &trans      &trans        &trans   &trans                    &trans            &trans         &trans    &trans          &trans
-&kp RS(NUMBER_1)  &kp RS(SEMI)      &kp LS(MINUS)     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL          &trans      &trans        &trans   &trans                    &trans            &trans         &trans    &trans
-&kp RS(NUMBER_4)  &kp RS(NUMBER_7)  &kp MINUS         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RS(EQUAL)      &trans      &trans        &trans   &trans                    &trans            &trans         &trans    &trans
+&kp RS(NUMBER_2)  &kp RS(NUMBER_8)  &kp RS(NUMBER_3)  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RS(BACKSLASH)  &trans      &trans        &trans   &trans                    &trans            &trans         &trans    &trans          &trans
+&kp RS(NUMBER_1)  &kp RS(N7)        &kp MINUS         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL          &trans      &trans        &trans   &kp RIGHT_SHIFT           &kp LEFT_ALT      &trans         &trans    &trans
+&kp RS(NUMBER_4)  &kp RG(Z)         &kp RG(X)         &kp RG(C)             &kp RG(V)              &kp RS(EQUAL)      &trans      &trans        &trans   &trans                    &trans            &trans         &trans    &trans
 &trans            &trans            &trans            &kp LA(BACKSPACE)     &kp BACKSPACE          &trans             &trans      &trans        &trans   &trans                    &trans
             >;
         };
@@ -116,7 +116,7 @@
             bindings = <
 &kp ESC  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP       &kp C_PREV      &kp C_PP  &kp C_NEXT        &bl BL_CYCLE   &kp F11        &kp LS(LC(LG(NUMBER_4)))  &kp LC(UP_ARROW)  &kp LG(SPACE)  &bth 0 0  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp K_POWER  &trans
 &trans   &trans      &trans        &trans             &trans          &trans    &trans            &trans         &trans         &trans                    &trans            &trans         &trans    &trans
-&trans   &trans      &trans        &trans             &trans          &trans    &kp LG(LEFT)      &kp PAGE_DOWN  &kp PG_UP      &kp LG(RIGHT)             &trans            &trans         &trans    &trans          &trans
+&trans   &trans      &trans        &trans             &trans          &trans    &kp LG(LEFT)      &kp PAGE_DOWN  &kp PG_UP      &kp LG(RIGHT)             &kp LG(P)         &trans         &trans    &trans          &trans
 &trans   &kp LALT    &kp LSHFT     &trans             &trans          &trans    &kp LEFT          &kp DOWN       &kp UP_ARROW   &kp RIGHT                 &trans            &trans         &trans    &trans
 &trans   &trans      &trans        &trans             &trans          &trans    &kp LG(UP_ARROW)  &kp LG(DOWN)   &kp BACKSPACE  &kp DELETE                &kp LG(F)         &trans         &trans    &trans
 &trans   &trans      &trans        &kp LA(BACKSPACE)  &kp LA(DELETE)  &trans    &trans            &trans         &trans         &trans                    &trans
